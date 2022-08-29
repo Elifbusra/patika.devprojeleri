@@ -1,6 +1,0 @@
-def reverse_list(girdi):
-    for i in girdi:
-        if isinstance(i,list):
-            i.reverse()
-    girdi.reverse()    
-    return girdi
